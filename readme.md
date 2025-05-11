@@ -3,7 +3,7 @@
 Беспалов Вячеслав Алексеевич
 
 ## Выбор датасета
-Я выбрала датасет https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification Актуальная тема диагностики заболеваний
+Я выбрал датасет https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification Актуальная тема диагностики заболеваний
 ## Выбор метрик
 Для всех лабораторных работ использовался набор метрик:
     "acc"      : MulticlassAccuracy(num_classes=NUM_CLASSES, average="micro"),

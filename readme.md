@@ -5,7 +5,7 @@
 ## Выбор датасета
 Я выбрал датасет https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification Актуальная тема диагностики заболеваний
 ## Выбор метрик
-Для всех лабораторных работ использовался набор метрик:
+Для 6-7 лабораторных работ использовался набор метрик:
     "acc"      : MulticlassAccuracy(num_classes=NUM_CLASSES, average="micro"),
     "f1_macro" : MulticlassF1Score(num_classes=NUM_CLASSES, average="macro"),
     "f1_weight": MulticlassF1Score(num_classes=NUM_CLASSES, average="weighted"),
@@ -20,8 +20,6 @@
 |                                                 | Трансформерная | ACC: 0.9257<br>F1\_macro: 0.9235<br>F1\_weight: 0.9255<br>Top‑3: 0.9910 | ACC: 0.9285<br>F1\_macro: 0.9321<br>F1\_weight: 0.9281<br>Top‑3: 0.9904 | ACC: 0.7815<br>F1\_macro: 0.7750<br>F1\_weight: 0.7781<br>Top‑3: 0.9532 | ACC: 0.8457<br>F1\_macro: 0.8400<br>F1\_weight: 0.8439<br>Top‑3: 0.9729 |
 | **Семантическая сегментация**            | Сверточная     | ACC: 0.9060<br>F1\_macro: 0.9091<br>F1\_weight: 0.9057<br>Top‑3: 0.9875 | ACC: 0.9046<br>F1\_macro: 0.9081<br>F1\_weight: 0.9045<br>Top‑3: 0.9870 | ACC: 0.7329<br>F1\_macro: 0.7454<br>F1\_weight: 0.7350<br>Top‑3: 0.9324 | ACC: 0.8000<br>F1\_macro: 0.8056<br>F1\_weight: 0.8038<br>Top‑3: 0.9512 |
 |                                                 | Трансформерная | ACC: 0.9229<br>F1\_macro: 0.9287<br>F1\_weight: 0.9224<br>Top‑3: 0.9797 | ACC: 0.9285<br>F1\_macro: 0.9351<br>F1\_weight: 0.9281<br>Top‑3: 0.9850 | ACC: 0.7604<br>F1\_macro: 0.7700<br>F1\_weight: 0.7654<br>Top‑3: 0.9433 | ACC: 0.8203<br>F1\_macro: 0.8280<br>F1\_weight: 0.8237<br>Top‑3: 0.9631 |
-| **Обнаружение и распознавание объектов** | Сверточная     | ACC: 0.3745<br>F1\_macro: 0.3208<br>F1\_weight: 0.3594<br>Top‑3: —      | ACC: 0.5610<br>F1\_macro: 0.5512<br>F1\_weight: 0.5609<br>Top‑3: —      | ACC: 0.4500<br>F1\_macro: 0.4244<br>F1\_weight: 0.4407<br>Top‑3: —      | ACC: 0.5900<br>F1\_macro: 0.5620<br>F1\_weight: 0.5805<br>Top‑3: —      |
-|                                                 | Трансформерная | ACC: 0.3843<br>F1\_macro: 0.3325<br>F1\_weight: 0.3507<br>Top‑3: —      | ACC: 0.5680<br>F1\_macro: 0.5381<br>F1\_weight: 0.5534<br>Top‑3: —      | ACC: 0.4609<br>F1\_macro: 0.4311<br>F1\_weight: 0.4509<br>Top‑3: —      | ACC: 0.6090<br>F1\_macro: 0.5733<br>F1\_weight: 0.5912<br>Top‑3: —      |
 
 
 ## Вывод
